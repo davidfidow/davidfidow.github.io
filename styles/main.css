@@ -18,6 +18,9 @@ a:hover, a:focus {
     font-style: italic;
     color: orangered;
 }
+list {
+    line-height: 1.5em;
+}
 header{
     margin-bottom:3em;
 }
