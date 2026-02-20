@@ -20,7 +20,7 @@ a:hover, a:focus {
     border: 3px blue;
     border-style: dotted solid;
 }
-list {
+#list {
     line-height: 1.5em;
 }
 header {
