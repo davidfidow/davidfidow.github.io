@@ -4,14 +4,15 @@ body {
 	font-family:Georgia,serif;
 	background-image:url("images/background.jpg");
 	background-attachment:fixed;
-	background-size:cover;
+	background-position:right center;
+	background-repeat:no-repeat;
+	background-size:auto 100%;
 	border:2px solid #333;
 }
 
 nav {
 	background-color:#00008B;
 	display:flex;
-	border-bottom:3px solid #00008B;
 }
 
 nav a {
@@ -31,7 +32,15 @@ nav a.active {
 	color:orange;
 }
 
-#main-wrapper {
+#blue-line-top {
+	border-top:3px solid #00008B;
+}
+
+#blue-line-bottom {
+	border-top:3px solid #00008B;
+}
+
+#content-area {
 	display:flex;
 	background-color:white;
 }
@@ -39,13 +48,16 @@ nav a.active {
 article {
 	width:75%;
 	padding:20px 25px;
-	border-right:2px solid #00008B;
+	column-count:3;
+	column-gap:0;
+	column-rule:2px dotted #00008B;
 	box-sizing:border-box;
 }
 
 article h1 {
 	color:#00008B;
 	font-family:Arial,sans-serif;
+	column-span:all;
 }
 
 article h2 {
@@ -56,6 +68,7 @@ article h2 {
 article p {
 	text-align:justify;
 	line-height:1.6;
+	margin-top:0;
 }
 
 .dropcap {
@@ -70,8 +83,8 @@ article p {
 
 .float-img {
 	float:left;
-	margin:0 15px 10px 0;
-	width:180px;
+	margin:0 10px 8px 0;
+	width:110px;
 }
 
 img {
