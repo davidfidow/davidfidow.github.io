@@ -1,146 +1,132 @@
+html {
+	background-image: url("images/background.jpg");
+	background-position: right top;
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+}
 body {
-	width:95%;
-	margin:15px auto;
-	font-family:Georgia,serif;
-	background-image:url("images/background.jpg");
-	background-attachment:fixed;
-	background-position:right center;
-	background-repeat:no-repeat;
-	background-size:auto 100%;
-	border:2px solid #333;
+	font-family: Georgia, serif;
+	font-size: 100%;
+	width: 95%;
+	background-color: white;
+	margin: 15px auto;
+	padding: 0;
+	border: 2px solid #333;
 }
-
+a:hover, a:focus {
+	font-style: italic;
+	color: orange;
+}
 nav {
-	background-color:#00008B;
-	display:flex;
+	background-color: #00008B;
+	overflow: hidden;
 }
-
 nav a {
-	color:white;
-	text-decoration:none;
-	padding:15px 40px;
-	font-family:Arial,sans-serif;
-	font-weight:bold;
-	font-size:15px;
+	display: block;
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 15px 40px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 100%;
 }
-
-nav a:hover {
-	background-color:#0000CD;
+nav a:hover, nav a:focus {
+	background-color: #0000CD;
+	font-style: normal;
+	color: white;
 }
-
 nav a.active {
-	color:orange;
+	color: orange;
 }
-
 #blue-line-top {
-	border-top:3px solid #00008B;
+	border-top: 3px solid #00008B;
 }
-
 #blue-line-bottom {
-	border-top:3px solid #00008B;
+	border-top: 3px solid #00008B;
+	clear: both;
 }
-
-#content-area {
-	display:flex;
-	background-color:white;
-}
-
 article {
-	width:75%;
-	padding:20px 25px;
-	column-count:3;
-	column-gap:0;
-	column-rule:2px dotted #00008B;
-	box-sizing:border-box;
+	width: 75%;
+	float: left;
+	padding: 20px 25px;
+	column-count: 3;
+	column-gap: 2em;
+	column-rule: 2px dotted #00008B;
+	box-sizing: border-box;
 }
-
 article h1 {
-	color:#00008B;
-	font-family:Arial,sans-serif;
-	column-span:all;
+	color: #00008B;
+	font-family: Arial, Helvetica, sans-serif;
+	column-span: all;
 }
-
 article h2 {
-	color:#00008B;
-	font-family:Arial,sans-serif;
+	color: #00008B;
+	font-family: Arial, Helvetica, sans-serif;
 }
-
 article p {
-	text-align:justify;
-	line-height:1.6;
-	margin-top:0;
+	text-align: justify;
+	line-height: 1.6;
+	margin-top: 0;
 }
-
-.dropcap {
-	font-size:3em;
-	font-weight:bold;
-	font-style:italic;
-	float:left;
-	line-height:0.8;
-	margin-right:5px;
-	margin-top:5px;
+article p::first-letter {
+	font-size: 3em;
+	font-weight: bold;
+	font-style: italic;
+	float: left;
+	line-height: 0.8;
+	margin-right: 5px;
+	margin-top: 5px;
 }
-
-.float-img {
-	float:left;
-	margin:0 10px 8px 0;
-	width:110px;
+article img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 8px;
+	width: 110px;
+	border: 1px solid #ccc;
 }
-
-img {
-	border:1px solid #ccc;
-}
-
 aside {
-	width:20%;
-	padding:15px;
-	position:fixed;
-	right:2%;
-	top:120px;
-	background-color:lightblue;
-	border:1px solid #888;
-	box-sizing:border-box;
+	width: 20%;
+	float: right;
+	position: fixed;
+	right: 2%;
+	top: 120px;
+	background-color: lightblue;
+	padding: 15px;
+	border: 1px solid #888;
+	box-sizing: border-box;
 }
-
 aside ol {
-	padding-left:20px;
-	margin:0;
+	list-style-type: upper-roman;
+	padding-left: 20px;
+	margin: 0;
 }
-
 aside ul {
-	padding-left:15px;
-	list-style-type:disc;
+	padding-left: 15px;
+	list-style-type: square;
 }
-
 aside ul ol {
-	list-style-type:lower-alpha;
+	list-style-type: lower-alpha;
 }
-
 aside a {
-	color:#00008B;
-	text-decoration:underline;
-	font-size:14px;
+	color: #00008B;
+	text-decoration: underline;
+	font-size: 14px;
 }
-
-aside a:hover {
-	color:orange;
+aside > a {
+	display: block;
+	margin-top: 10px;
+	font-size: 14px;
 }
-
-aside>a {
-	display:block;
-	margin-top:10px;
-	font-size:14px;
-}
-
 footer {
-	border-top:2px solid #333;
-	text-align:center;
-	padding:10px;
-	background-color:white;
-	font-family:Arial,sans-serif;
-	font-size:14px;
+	clear: both;
+	border-top: 2px solid #333;
+	text-align: center;
+	padding: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 85%;
 }
-
 footer a {
-	color:#00008B;
+	color: #00008B;
 }
