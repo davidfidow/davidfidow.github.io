@@ -15,14 +15,13 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-#nav_menu ul li a:hover {
-    background-color: #111;
+article {
+    float: left;
+    width: 75%;
 }
-#nav_menu ul li a.current {
-    background-color: #04AA6D;
-}
-#nav_menu ul li a.lastitem {
-    background-color: #555;
+aside {
+    float: right;
+    width: 20%;
 }
 aside ol {
     list-style-type: upper-roman;
