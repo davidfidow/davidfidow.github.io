@@ -11,10 +11,10 @@ body {
 	border-radius: 25px;
 	box-shadow: 5px 5px 0 0;
 	background-color: white;
-	background-image: url("images/background.jpg");
+	background-image: url("../images/background.jpg");
 	background-position: right top;
 	background-repeat: repeat-y;
-	background-attachment: scroll;
+	background-attachment: fixed;
 }
 a:hover, a:focus {
 	font-style: italic;
