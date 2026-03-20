@@ -1,5 +1,9 @@
 html {
-	background: linear-gradient(to left, white 0%, #a0c4ff 100%);
+	background-color: #a0c4ff;
+	background-image: url("images/background.jpg");
+	background-position: right top;
+	background-repeat: repeat-y;
+	background-attachment: fixed;
 }
 body {
 	font-family: Georgia, serif;
@@ -10,7 +14,7 @@ body {
 	border: 1px solid #333;
 	border-radius: 25px;
 	box-shadow: 5px 5px 0 0;
-	background: url("images/background.jpg") right top / auto repeat-y fixed white;
+	background-color: white;
 }
 a:hover, a:focus {
 	font-style: italic;
