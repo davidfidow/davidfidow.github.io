@@ -1,9 +1,9 @@
 html {
 	background-color: #a0c4ff;
-	background-image: url("images/background.jpg");
-	background-position: right top;
-	background-repeat: repeat-y;
-	background-attachment: fixed;
+	background-image: linear-gradient(to left, white 0%, #a0c4ff 100%), url("images/background.jpg");
+	background-position: left top, right top;
+	background-repeat: no-repeat, repeat-y;
+	background-attachment: fixed, fixed;
 }
 body {
 	font-family: Georgia, serif;
