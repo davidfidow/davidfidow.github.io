@@ -5,9 +5,11 @@
     overflow: hidden;
     background-color: #333;
 }
+
 #nav_menu ul li {
     float: left;
 }
+
 #nav_menu ul li a {
     display: block;
     color: white;
@@ -15,17 +17,11 @@
     padding: 14px 16px;
     text-decoration: none;
 }
-article {
-    float: left;
-    width: 75%;
-}
-aside {
-    float: right;
-    width: 20%;
-}
+
 aside ol {
     list-style-type: upper-roman;
 }
+
 aside ul {
     list-style-type: square;
 }
