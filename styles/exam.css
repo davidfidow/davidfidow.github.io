@@ -1,21 +1,17 @@
 html {
-	background-color: #a0c4ff;
-	background-image: url("images/background.jpg"), linear-gradient(to left, white 0%, #a0c4ff 100%);
-	background-position: right top, left top;
-	background-repeat: repeat-y, no-repeat;
-	background-attachment: fixed, fixed;
-	background-size: auto, cover;
+	background: linear-gradient(to left, white 0%, #a0c4ff 100%);
 }
 body {
 	font-family: Georgia, serif;
 	font-size: 100%;
 	width: 95%;
-	background-color: white;
 	margin: 15px auto;
 	padding: 15px 1.5em;
 	border: 1px solid #333;
 	border-radius: 25px;
 	box-shadow: 5px 5px 0 0;
+	background: url("images/background.jpg") right repeat-y white;
+	background-attachment: fixed;
 }
 a:hover, a:focus {
 	font-style: italic;
