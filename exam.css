@@ -87,25 +87,32 @@ aside {
     padding: 10px;
     box-sizing: border-box;
 }
+aside ol {
+    list-style-type: upper-roman;
+    margin: 0;
+    padding-left: 20px;
+}
+aside ol li {
+    margin-bottom: 5px;
+}
 aside ul {
-    list-style-type: square;
+    list-style-type: disc;
     margin: 0;
     padding-left: 20px;
 }
 aside ul li {
-    margin-bottom: 8px;
-    border-bottom: 1px dotted #aaa;
-    padding-bottom: 6px;
+    margin-bottom: 5px;
 }
-aside ul li:last-child {
-    border-bottom: none;
+aside ol ol {
+    list-style-type: lower-alpha;
+    padding-left: 20px;
 }
-aside ul li a {
+aside a {
     text-decoration: none;
     color: #2c3e50;
     font-size: 14px;
 }
-aside ul li a:hover {
+aside a:hover {
     text-decoration: underline;
     color: #e74c3c;
 }
