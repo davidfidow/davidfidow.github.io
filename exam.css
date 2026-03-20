@@ -16,11 +16,10 @@ a:hover, a:focus {
 nav {
 	background-color: #00008B;
 	overflow: hidden;
-	padding: 5px;
-	gap: 5px;
-	display: flex;
 }
 nav a {
+	display: block;
+	float: left;
 	color: white;
 	text-align: center;
 	padding: 14px 30px;
@@ -28,7 +27,7 @@ nav a {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 100%;
-	background-color: #00008B;
+	margin-right: 2px;
 }
 nav a:hover, nav a:focus {
 	background-color: #0000CD;
@@ -40,17 +39,15 @@ nav a.active {
 }
 #blue-line-top {
 	border-top: 3px solid #00008B;
-	margin: 0 1.5em;
 }
 #blue-line-bottom {
 	border-top: 3px solid #00008B;
-	margin: 0 1.5em;
 	clear: both;
 }
 article {
-	width: 70%;
+	width: 75%;
 	float: left;
-	padding: 1em 0 1em 1.5em;
+	padding: 1em 1em 1em 1.5em;
 	column-count: 3;
 	column-gap: 2em;
 	column-rule: 2px dotted #00008B;
@@ -83,15 +80,17 @@ article img {
 	float: left;
 	margin-right: 10px;
 	margin-bottom: 8px;
-	width: 110px;
+	width: 100px;
 	border: 1px solid #ccc;
 }
 aside {
 	width: 20%;
 	float: right;
+	position: fixed;
+	right: 2%;
+	top: 60px;
 	background-color: lightblue;
 	padding: 1em;
-	margin: 1em 1.5em 1em 0;
 	border: 1px solid #888;
 	box-sizing: border-box;
 }
