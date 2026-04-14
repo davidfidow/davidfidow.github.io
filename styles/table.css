@@ -48,7 +48,7 @@ table.third {
 }
 
 table.third thead tr th {
-  background-color: #5cb85c;
+  background-color: greenyellow;
   color: black;
   padding: 0.5em 0.7em;
   text-align: center;
