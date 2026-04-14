@@ -49,13 +49,17 @@ table.third {
 
 table.third thead tr th {
   background-color: #5cb85c;
-  color: white;
+  color: black;
   padding: 0.5em 0.7em;
   text-align: left;
 }
 
 table.third thead tr:first-child th {
   text-align: center;
+}
+
+table.third thead tr:first-child {
+  border-bottom: 2px solid orangered;
 }
 
 table.third thead tr:last-child {
@@ -66,10 +70,6 @@ table.third tbody td {
   padding: 0.3em 0.7em;
   vertical-align: top;
   border: none;
-}
-
-table.third tbody td:nth-child(2) {
-  border-right: 2px solid orangered;
 }
 
 @media only screen and (max-width: 425px) {
