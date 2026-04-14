@@ -9,8 +9,6 @@ html, body {
   box-sizing: border-box;
 }
 
-/*--------------------------------------------------------*/
-
 .top-nav {
   display: flex;
   flex-direction: row;
@@ -18,7 +16,6 @@ html, body {
   justify-content: space-between;
   background-color: #00BAF0;
   background: linear-gradient(to left, #f46b45, #eea849);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #FFF;
   height: 3em;
   padding: 1em;
@@ -86,8 +83,6 @@ html, body {
   margin-top: 0px;
   transform: rotate(-405deg);
 }
-
-/*--end of menu*/
 
 section a {
   text-decoration: none;
