@@ -51,7 +51,7 @@ table.third thead tr th {
   background-color: #5cb85c;
   color: black;
   padding: 0.5em 0.7em;
-  text-align: left;
+  text-align: center;
 }
 
 table.third thead tr:first-child th {
